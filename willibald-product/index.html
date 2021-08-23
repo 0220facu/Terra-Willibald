@@ -148,17 +148,20 @@
 
 <body>
     <div class="bg-main">
-        <div class="container">
-            <section class="container-fluid  d-flex">
-                <div class="bg-white p-xl-5 w-75 mx-auto">
+        <div class="container d-flex flex-column">
+            <section class="d-flex p-0">
+                <div class="bg-white p-5 w-100 rounded box-style ">
                         <p class="text-sm">
                             Volteadoras > TBU
                         </p>
-                        <div  class="row"> 
-                            <p class="text-xxl col text-green">
+                        <div  class="d-flex responsive-column">
+                            <p class="text-xxl w-75  text-green">
                                 TBU
                             </p>
-                            <a class="bg-green w-25 h-25 mt-4 pl-4 pr-4 text-white btn">contactanos</a>
+                            <div class="w-50 d-flex">
+                                <a class="bg-green h-50 mt-4 pl-4  pr-4 p-2 text-white btn main-btn">contactanos</a>
+                            </div>
+                            
                         </div>
                         <div class="w-75">
                             <p class="text-xl text-secondary">
@@ -171,13 +174,13 @@
                                 madura rápidamente.
                             </p>
                         </div>
-                        <div class="row">
-                            <div class=" col-3">
+                        <div class="row responsive-column flex-wrap">
+                            <div class="col-3 li">
                                 <p class="text-xl mt-2">
                                     Beneficios
                                 </p>
                             </div>    
-                                <div class="col-6 pt-2">
+                                <div class="col-6 pt-2 li">
                                     <div class="d-flex">
                                         <img class="img-s mt-2" src="./img/willibald/leaf.svg">
                                         <p class="text-m mt-3 ml-1 mb-1">
@@ -216,7 +219,51 @@
                         </div>
                 </div>
             </section>
-        
+            <div class="row bg-green rounded mb-5 mx-auto w-100 mt-5">
+                <img src="./img/willibald/tbu.jpg" class="col-5 img-responsive rounded-left p-0">
+                <div class="col-6 p-5 li"> 
+                    <p class="text-light text-xl ">
+                        Máquinas compactas y faciles de usar para el compostaje de plantas y plantas de humus
+                    </p>
+                    <button type="button" class="btn btn-outline-light p-2 pr-4 pl-4">Descargar ficha técnica</button>
+                </div>
+            </div>
+            <section class="row w-100 responsive-column">
+                <div class="col-6 p-4 li">
+                    <p class="text-xl text-secondary">
+                        Caracteristicas
+                    </p>
+                    <div class="d-flex">
+                        <img class="img-s mt-2" src="./img/willibald/leaf.svg">
+                        <p class="text-m mt-3 ml-1 mb-1">
+                            Es impulsado por un tractor (min. 130 CV - max.300 CV)
+                            utilizando un eje cardán Powerdrive estable con embrague de sobrecarga.
+                        </p>
+                    </div>
+                    <div class="d-flex">
+                        <img class="img-s mt-2" src="./img/willibald/leaf.svg">
+                        <p class="text-m mt-3 ml-1 mb-1">
+                            La distancia de lanzamiento del material se determina mediante la trampilla de descarga
+                            en la cinta transportadora de goma.
+                        </p>
+                    </div>
+                    <div class="d-flex">
+                        <img class="img-s mt-2" src="./img/willibald/leaf.svg">
+                        <p class="text-m mt-3 ml-1 mb-1">
+                            Direccion de trabajo  en el viaje en tren: visión clara para el operador
+                        </p>
+                    </div>
+                    <div class="d-flex">
+                        <img class="img-s mt-2" src="./img/willibald/leaf.svg">
+                        <p class="text-m mt-3 ml-1 mb-1">
+                            Opcionalmente, se puede adaptar un eje de arrastre giratorio para tractores mas pequeños    
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 d-flex p-0 li pt-5">
+                    <iframe class="" width="560" height="315" src="https://www.youtube.com/embed/8WmLL26vuVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </section>
         </div>
     </div>    
 </body>

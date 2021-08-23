@@ -147,9 +147,8 @@ a:link, a:visited, a:active, a:hover{
     color:#ffffff !important    ;
 }
 
-.item-main{
-    height: 400px;
-    width: 70%;
+.item-main img{
+    height: 50%
 }
 .caja{
     margin-top:10vh !important;

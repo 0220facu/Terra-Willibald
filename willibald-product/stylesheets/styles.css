@@ -110,12 +110,13 @@ footer {
     background-image: url(../img/willibald/bg-home.jpg);
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 100% 50%;
+    background-size: 100% 30%;
 }
 
 .bg-main .bg-white{
     margin-top:10vh;
-    border-radius: 20px;
+}
+.box-style{
     box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 20%);
 }
 .btn:hover{
@@ -132,7 +133,7 @@ footer {
     background-color: #649d14;
 }
 .text-m{
-    font-size:11px
+    font-size:14px
 }
 .text-xl{
     font-size:25px
@@ -142,4 +143,34 @@ footer {
 }
 .w-60{
     width:60%
+}
+
+.p-0{
+    padding: 0px !important;
+}
+
+.btn-outline-light:hover{
+    color: #649d14 !important
+}
+.main-btn{
+    width: 50%;
+    margin-left: auto;
+}
+
+@media(max-width:769px){
+    .main-btn{
+        width: 100%;
+        margin-left: auto;
+    }
+    .img-responsive{
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .li{
+        max-width: 100% !important;
+        width:100% !important
+    }
+   .responsive-column{
+       flex-direction: column !important;
+   }
 }
